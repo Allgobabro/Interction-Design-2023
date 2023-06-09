@@ -1,0 +1,146 @@
+
+    <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<style media="screen">
+    .scrollspy-example {
+         position: relative;
+         height: 350px;
+         overflow: auto;    }
+</style>
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50"> >
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+        <a class="nav-link" href="#section1">Section 1</a>       </li>
+         <li class="nav-item">
+         <a class="nav-link" href="#section2">Section 2</a>       </li>
+         <li class="nav-item">
+        <a class="nav-link" href="#section3">Section 3</a>       </li>     </ul>   </div> </nav>
+        <div id="section1" class="container-fluid bg-success text-white" style="padding:100px 20px;">
+          <h1>Section 1</h1>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+          <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p> </div>
+           <div id="section2" class="container-fluid bg-warning" style="padding:100px 20px;">
+            <h1>Section 2</h1>
+             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+              <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p> </div>
+               <div id="section3" class="container-fluid bg-secondary text-white" style="padding:100px 20px;">
+                 <h1>Section 3</h1>
+                  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+                   <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p> </div>
+
+    <h1>Hello, world!</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/mhDoLbDldZc3qpsJHpLogda//BVZbgYuw6kof4u2FrCedxOtgRZDTHgHUhOCVim" crossorigin="anonymous"></script>
+<!--这是堆叠表单！-->
+    <form>
+      <div class="mb-3 mt-3">
+       <label for="email"class="form-label">Email:</label>
+       <input type="email"class="form-control"id="email"placeholder="Enter email"name="email">  </div>
+      <div class="mb-3">
+      <label for="pwd"class="form-label">Password:</label>
+      <input type="password"class="form-control"id="pwd"placeholder="Enter password"name="pswd"></div>
+      <div class="form-check mb-3">
+      <label class="form-check-label">
+      <input class="form-check-input"type="checkbox"name="remember"> Remember me</label></div>
+      <button type="submit"class="btn btn-primary">Submit</button></form>
+<!--这是卡片1！-->
+      <div class="card"style="width: 18rem;">
+        <img class="card-img-top"src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fsafe-img.xhscdn.com%2Fbw1%2Fe231edf6-56b2-4e66-ba68-e10248afc3ba%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fsafe-img.xhscdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1686446917&t=a7e48cc6e8e801aefd9fe2fc4df2543c"alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">final fantasy14</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#"class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+<!--这是卡片2！-->
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#"class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#"class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--滚动监听！-->
+  <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+     <a class="navbar-brand" href="#">Navbar</a>
+      <ul class="nav nav-pills">
+      <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1">First</a>    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2">Second</a>    </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+      <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+      </ul>
+      </li>  </ul></nav><div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                              <h4 id="scrollspyHeading1">First heading</h4>
+                              <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It's repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
+                              <h4 id="scrollspyHeading2">Second heading</h4>
+                               <p>...</p>
+                                <h4 id="scrollspyHeading3">Third heading</h4>
+                                 <p>...</p>
+                                  <h4 id="scrollspyHeading4">Fourth heading</h4>
+                                   <p>...</p>
+                                   <h4 id="scrollspyHeading5">Fifth heading</h4>
+                                    <p>...</p>
+                                  </div>
+
+
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Top popover">
+          Popover on top
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="right" data-bs-content="Right popover">
+          Popover on right
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover">
+          Popover on bottom
+          </button>
+          <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Left popover">
+          Popover on left
+          </button>
+
+          <button type="button"class="btn btn-primary"data-bs-toggle="modal"data-bs-target="#myModal">打开模态框</button>
+          <!-- 模态框 -->
+          <div class="modal"id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <!-- 模态框头部 -->
+                <div class="modal-header">
+                  <h4 class="modal-title">模态框标题</h4>
+                  <button type="button"class="btn-close"data-bs-dismiss="modal"></button></div>
+                  <!-- 模态框内容 --><div class="modal-body">模态框内容..</div>
+                  <!-- 模态框底部 --><div class="modal-footer">
+                  <button type="button"class="btn btn-danger"data-bs-dismiss="modal">关闭</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+  </body>
+</html>
